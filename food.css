@@ -1,3 +1,81 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+.word{
+    color: orangered;
+}
+.size{
+    font-size: 50px;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(187, 60, 21), tomato);
+    padding: 20px 50px;
+    border-radius: 30px;
+    font-weight: 700;
+    color: white;
+    margin-top: 200px;
+}
+div img{
+    width: 60%;
+    margin-top: 100px;
+}
+.cooker-text{
+    margin-top: 300px;
+}
+#food-header{
+    font-size: 40px;
+}
+.theam{
+    border-top: seashell 10px;
+    background-image: url(images/shapes/7.png);
+    margin: 0;
+}
+.arrang-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 20px 50px;
+    border-radius: 30px;
+    font-weight: 700;
+    color: white;
+    margin-top: 100px;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+.items{
+    margin: 15px;
+    border:wheat solid 5px;
+    box-shadow: wheat;
+    padding: 20px;
+}
+.outside{
+    margin:100px;
+    padding: 50px;
+    font-size: 30px;
+}
+#grops{
+    border: white;
+    background-color: white;
+}
+footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: royalblue;
+    color: black;
+    text-align: center;
 }
